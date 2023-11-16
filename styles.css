@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+#play{
+    color: white;
+    background-color:rgb(90, 37, 192);
+    margin-left: 70%;
+    font-size: 35px;
+    height: 50px;
+    width: 120px;
+    
+}
+#heading{
+    color:rgb(90, 37, 192);
+    font-size: 55px;
+    margin-left: 30%;
+    margin-top: 25px;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box1{
+    border: 2px solid yellow;
+    height: 50vh;
+    width: 30vw;
+}
+
+.pictures{
+    height: 50vh;
+    width: 30vw;
+}
+
+#box2{
+    border: 2px solid yellow;
+    height: 50vh;
+    width: 30vw;
+}
+
+#image{
+    margin-left: 18%;
+    margin-top: 4%;
+    height: 400px;
+    width: 400px;
+}
+
+#game{
+    height: 30px;
+    width: 30px;
+}
+
+.images{
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   bottom: 17vh;
+   
+}
+
+#vs{
+    height: 370px;
+}
+
+#score{
+    color: white;
+    margin-left: 44vw;
+    margin-top: 10vh;
+    font-size: 5em;
+}
+
+#won{
+    margin-left: 47vw;
+    visibility: hidden;
+}
+
+#playAgain{
+    height: 4vh;
+    width: 10vw;
+    background-color: plum;
+}
+
+#won{
+    position: relative;
+    bottom: 40px;
+}
